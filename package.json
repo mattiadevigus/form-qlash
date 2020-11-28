@@ -1,0 +1,27 @@
+{
+  "name": "form-air",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^2.7.4",
+    "express": "~4.16.1",
+    "express-rate-limit": "^5.2.3",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.16",
+    "sqlite3": "^5.0.0"
+  },
+  "main": "server.js",
+  "devDependencies": {},
+  "author": "Mattia Devigus",
+  "license": "ISC",
+  "description": ""
+}
